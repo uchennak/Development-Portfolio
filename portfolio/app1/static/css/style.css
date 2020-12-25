@@ -7,11 +7,14 @@
       background-size: 100%;
     
     }
+    p{
+        font-family: sans-serif;
+        
+       }
    #wrapper{
 
     width: auto;
-    border: 5px solid rgb(233, 66, 0);
-    border-radius: 10px;
+    
     background-color: white;
     
     padding: 30px;
@@ -57,7 +60,7 @@
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
- 
+    padding-right: 5px;
 }
    .meta {
     font-weight: bold;
