@@ -14,7 +14,8 @@
    #wrapper{
 
     width: auto;
-    
+    border: 5px solid rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
     background-color: white;
    margin: 20px; 
     padding: 20px;
@@ -27,7 +28,7 @@
     height: 100px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    border: 5px solid rgb(233, 66, 0);
+    border: 5px solid rgba(0, 0, 0, 0.562);
     border-radius: 10px;
     text-align: center;
 
@@ -41,25 +42,25 @@
    }
    
    .project{
-       background-color:  rgb(255, 124, 2);
+       border: 5px solid rgba(0, 0, 0, 0.767) ;
        width: 300px;
        height: 200px;
-       
+       border-radius: 10px;
        display: inline-block;
     
    }
    .project_container{
     background-color: white;
+  /*border: 2px solid black;*/
+  /*  border-radius: 10px; */
    
-    border-radius: 8px;
     width: 340px;
     height: 300px;
     margin: 15px;
     padding-left: 35px;
     padding-top: 35px;
     display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
+    
     padding-right: 5px;
 }
    .meta {
@@ -85,3 +86,13 @@
 #project4{
     background: url("/static/img/Wishlist.png") 100%;
 }
+#project5{
+    background: url("/static/img/20201225_174706.jpg") 100%;
+
+}
+
+#project6{
+    background: url("/static/img/dodgingfire_welcome.png") 100%;
+
+}
+
