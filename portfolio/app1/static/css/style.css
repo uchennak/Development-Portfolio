@@ -71,3 +71,17 @@
     margin: 5px;
     
 }
+
+#project1{
+    background: url("/static/img/African Ancestry.png") 100%;
+}
+
+#project2{
+    background: url("/static/img/BigBankAccount.png") 100%;
+}
+#project3{
+    background: url("/static/img/weather.png") 100%;
+}
+#project4{
+    background: url("/static/img/Wishlist.png") 100%;
+}
