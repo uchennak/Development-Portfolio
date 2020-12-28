@@ -4,11 +4,8 @@ from django.shortcuts import render,redirect
 def index(request):
    return render(request, "index.html")
 
-def show_java(request):
-    return render(request, "java_projects.html")
-
-def show_python(request):
-    pass
+def james_consult(request):
+    return render(request, "james_consult.html")
 
 def about_me(request):
     return render(request, "about_me.html")
