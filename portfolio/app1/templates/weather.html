@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <title>Weather</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/weather.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{% static 'js/input_city.js' %}"></script>
+</head>
+<body>
+    <div id='above_wrapper'>
+        <h1 id='live_weather'>Live Weather</h1>
+     <div id='sun'></div>
+    </div>
+    <div id = 'wrapper'>
+        <div id="weather">
+            <form>
+                <label for='city'>City:
+                    <input type='text' name='city' id='city'/>
+                </label>
+                <input type='submit' name='submit'/>
+            </form>
+        
+            <div id="results"></div>
+
+    </div>
+</body>
+</html>

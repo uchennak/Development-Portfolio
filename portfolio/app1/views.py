@@ -9,3 +9,6 @@ def james_consult(request):
 
 def about_me(request):
     return render(request, "about_me.html")
+
+def weather(request):
+    return render(request, "weather.html")
